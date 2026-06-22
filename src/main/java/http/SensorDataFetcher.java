@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class DataFetcher {
+public class SensorDataFetcher {
     private final String httpLink = "https://data.sensor.community/airrohr/v1/filter/box=52.36734243199027,20.819494415027485,52.09692843752652,21.319390572461643";
 
     public ArrayList<Root> fetchData() throws IOException {
